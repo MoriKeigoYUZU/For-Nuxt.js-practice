@@ -6,11 +6,12 @@
   </div>
 </template>
 
+
 <script>
 export default {
-  data() {
+  data () {
     return {
-      userId: this.$router.params.id
+      userId: this.$route.params.id
     }
   }
 }
